@@ -28,8 +28,8 @@ def setup(request, browser, url):
 
     # driver.maximize_window()
     driver.get(url)
-    driver.find_element(By.ID, "email").send_keys("farjana.yeasmin@brainstation-23.com")
-    driver.find_element(By.ID, "password").send_keys("Abra@1234")
+    driver.find_element(By.ID, "email").send_keys("***********")
+    driver.find_element(By.ID, "password").send_keys("**********")
     driver.find_element(By.XPATH, "//button[@type='submit']").click()
     request.cls.driver = driver
     yield
