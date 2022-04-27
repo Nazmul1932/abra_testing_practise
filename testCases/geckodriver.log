@@ -1,0 +1,36 @@
+1649409623359	geckodriver	INFO	Listening on 127.0.0.1:49961
+1649409623867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51441" "-no-remote" "-profile" "/tmp/rust_mozprofilenTsxGb"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649409624711	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenTsxGb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51441/devtools/browser/f4be03be-a435-4e65-a37e-3d3a1a16ade0
+1649409625795	Marionette	INFO	Listening on port 40625
+1649409625887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dev.portal.abrahome.com"
+1649409636732	Marionette	INFO	Stopped listening on port 40625
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dev.portal.abrahome.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649409757977	geckodriver	INFO	Listening on 127.0.0.1:46131
+1649409758484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46413" "-no-remote" "-profile" "/tmp/rust_mozprofilev0yVR2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1649409759141	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilev0yVR2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46413/devtools/browser/d604ad37-101d-4ce9-97c1-fc2152a2966e
+1649409760142	Marionette	INFO	Listening on port 40533
+1649409760200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dev.portal.abrahome.com"
+1649409771211	Marionette	INFO	Stopped listening on port 40533
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dev.portal.abrahome.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
